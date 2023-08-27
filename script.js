@@ -1,5 +1,5 @@
 let bubble = '';
-let timer = 6;
+let timer = 60;
 let click;
 let score = 0;
 function scoreAddition(){
