@@ -25,7 +25,7 @@ function runtimer(){
     }
     else{
       clearInterval(timerend);
-      document.querySelector("#box2").innerHTML = " <h1> Game Over </h1>"
+      document.querySelector("#box2").innerHTML = ` <h1> Game Over </h1></br><h1> Score is : ${score} </h1>`
     }
   }, 1000);
 }
